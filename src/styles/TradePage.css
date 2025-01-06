@@ -1,0 +1,136 @@
+/* Trade page specific styles */
+.trade-page .trade-header {
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.trade-page .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    justify-content: center;
+}
+
+.trade-page .card {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.trade-page .card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.trade-page .card .title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.trade-page .card .amount {
+    font-size: 1.1em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.trade-page .card button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trade-page .card button:hover {
+    background-color: #0056b3;
+}
+
+/* Cart styles */
+.trade-page .cart {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(2, 2, 36);
+    color: white;
+    z-index: 1000;
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+    display: none;
+}
+
+.trade-page .cart.open {
+    right: 0;
+    display: block;
+}
+
+.trade-page .cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.trade-page .cart-header .close-btn {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.trade-page .cart-body {
+    padding: 20px;
+}
+
+.trade-page .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.trade-page .cart-footer {
+    padding: 20px;
+    background-color: rgb(2, 2, 36);
+    color: white;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    width: 30%;
+}
+
+.trade-page .cart-footer .total {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.trade-page .wallet {
+    padding-top: 10px;
+    color: white;
+    padding-right: 10px;
+}
+
+.success-btn {
+    background-color: #28a745; 
+    color: white;              
+    border: none;              
+    padding: 10px 15px;       
+    border-radius: 5px;       
+    cursor: pointer;           
+    font-size: 16px;           
+}
+  
+  .success-btn:hover {
+    background-color: #218838;
+  }
+  

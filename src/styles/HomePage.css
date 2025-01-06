@@ -1,0 +1,175 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(2, 2, 36);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 2em;
+}
+
+/* Hero Section Styles */
+.gridSection {
+  display: grid;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 5em;
+  margin-top: 100px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.sectionDesc {
+  max-width: 100%;
+}
+
+.headline {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.cryptoText {
+  color: #f39c12; /* Highlight color for 'CRYPTO' */
+  margin-left: 0.5rem;
+}
+
+.subHeadline {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+#sectionPic {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+}
+
+.sectionBouncepic img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  animation: bounce 15s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-30px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+/* Card Section Styles */
+.cardsSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #333;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 250px; /* Fixed width for cards */
+  text-align: center;
+  margin: 1rem;
+}
+
+.card img {
+  width: 80%; /* Reduced size to fit inside the card */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 150px; /* Adjust height to make images smaller */
+  object-fit: contain; /* Ensure images are contained within the given space */
+  margin: 1rem auto; /* Center the image and add vertical spacing */
+}
+
+.cardDesc {
+  padding: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.25rem; /* Adjusted font size */
+  margin: 0;
+}
+
+.cardPara {
+  font-size: 0.9rem; /* Adjusted font size */
+  color: #ddd;
+}
+
+.cardPrice {
+  margin: 1rem 0;
+}
+
+.cardPrice h3 {
+  font-size: 1rem; /* Adjusted font size */
+  color: #f39c12; /* Highlight color */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Process Section Styles */
+.processesContainer {
+  margin-top: 18%;
+}
+
+.processes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.processes img {
+  margin-right: 2em;
+}
+
+.processesPara {
+  max-width: 70%;
+}
+
+.processesTitle {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.processesPara p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.sectionHeader {
+  font-size: 2rem;
+  margin-bottom: 0.7em;
+}
+
+.sectionPara {
+  font-size: 1.1rem;
+  margin-bottom: 3em;
+}

@@ -1,0 +1,80 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #282c34;
+  color: white;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerAboutus {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.footerAboutus img {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footerAboutus p {
+  margin-bottom: 1.5rem;
+}
+
+.footersociallinkContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.sociallink {
+  width: 30px;
+  height: 30px;
+}
+
+.footerlink {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.linkTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.eachLink {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.eachLink:hover {
+  text-decoration: underline;
+}
+
+.footerCopyright {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f232a;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.developedBy {
+  color: white;
+  text-decoration: none;
+}
+
+.developedBy:hover {
+  text-decoration: underline;
+}

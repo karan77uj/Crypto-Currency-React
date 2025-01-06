@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #282c34;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    margin-left: 4rem;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-left: 2rem;
+  }
+
+  .nav li:last-child {
+    margin-right: 3rem; /* Space between the last link (e.g., Wallet) and the right edge of the screen */
+}
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  .navbar .nav-link i.fa-wallet {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 10px;
+  }
+  
